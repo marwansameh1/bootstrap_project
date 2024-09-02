@@ -1,0 +1,98 @@
+.navbar{
+    position: fixed;
+}
+.iconss{
+    font-size: 50px;
+    margin-top: 150px;
+   
+}
+.iconss li a{
+    color: rgb(91, 91, 220);
+    padding-top: 12px;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 80px;
+    height: 300px;
+    background-attachment: fixed;
+}
+.background1{
+    background-image: url(../images/valley-of-the-kings-egypt.jpg);
+}
+.animation::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+     width: 0; 
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5);   
+    transition: 0.75s;
+}
+
+.animation:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.8;
+}
+
+.animation::before{
+    position: absolute;
+    bottom:  0;
+    right: 0;
+    content: "";
+     width: 0; 
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: 0.75s;
+}
+
+.animation:hover::before{
+   
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    }
+
+    .background2{
+    background-image: url(../images/backg8.png);
+
+    }
+    .people{
+        
+        transition-duration: 0.5s;
+    }
+    .people:hover{
+        scale: 0.9  0.9;
+
+    }
+
+.join{
+    text-align: center;
+}
+.join a{
+    text-decoration: none;
+    font-size: 90px;
+
+}
+.last-row h6{
+    display: inline-block;
+}
+.last-img{
+border-radius: 100%;
+width: 100px;
+height: 100px;
+}
+.det p:hover {
+    color: blue;
+}
+
+
+.my-card img {
+    float: right;
+    margin-left: 10px;
+}
+
+
+
